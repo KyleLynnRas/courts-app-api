@@ -1,24 +1,28 @@
-# README
+# Courterly Report
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Summary
 
-Things you may want to cover:
+Backend API for Courterly Report, an app to help users find pickleball courts in their area. The app retrieves the user's location and displays it on a Google map along with pins for all courts nearby. Users are able to add reviews of new courts, which will also add a pin to the map at their current location. TomTom's api is utilized to convert all coordinates to a street address which is displayed on the show page. Edit and delete functionality are available as well. 
 
-* Ruby version
+## Live Link
 
-* System dependencies
+https://courts-app-api-kr.herokuapp.com/courts
 
-* Configuration
 
-* Database creation
+## Technologies Used
 
-* Database initialization
+* Ruby
+* Rails 
+* PostgreSQL
+* Figaro
+* NET::HTTP
+* TomTom api 
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Model
 
-* Deployment instructions
+![model ERD](https://i.imgur.com/b7tkykD.png)
 
-* ...
+
+
+
